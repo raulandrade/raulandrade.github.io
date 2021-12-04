@@ -15,6 +15,7 @@
 	header.major h2 {
 		font-size: 2em;
 	}
+	
 
 	header.major p {
 		font-size: 1.1em;
@@ -48,9 +49,24 @@
 
 /* Banner */
 
+
 	#banner {
-		padding: 9em 0 7em 0;
+		padding: 6em 2em 6em 2em;
 	}
+
+		#banner br {
+			display: none;
+		}
+
+		#banner h2 {
+			font-size: 2.25em;
+		}
+
+		#banner p {
+			font-size: 1.25em;
+		}
+
+
 
 /* Wrapper */
 
@@ -67,8 +83,12 @@
 /* Footer */
 
 	#footer {
-		padding: 6em 0 4em 0;
+		padding: 3em 0 2em 0;
 	}
+
+		#footer .icons {
+			font-size: 1em;
+		}
 
 /* Layers */
 
@@ -82,7 +102,7 @@
 	}
 
 		#navButton .toggle:before {
-			content: "☰";
+			content: "\2630";
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
